@@ -9,6 +9,7 @@ highlighter: pygments
 markdown: kramdown
 disqus: kaoraswoo
 google_analytics: kaoraswoo
+url: http://kaoraswoo.github.io
 
 defaults:
   -
