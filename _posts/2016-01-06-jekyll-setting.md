@@ -81,3 +81,26 @@ jekyll serve --watch
 //http://localhost:4000접속
 {% endhighlight %}
 
+## disqus 연동
+댓글 달수 있는 disqus 사이트에 회원가입 후, 서비스를 만든다.
+https://publishers.disqus.com/
+
+* Unversial Install 눌러서 아래와 같은 코드를 _includes/disqus.html에 넣는다
+
+{% highlight bash %}
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+   ....
+   ....
+
+
+{% endhighlight %}
+
+이메일 인증까지 하면 완료.
