@@ -1,21 +1,34 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Gems
+gems: [jekyll-paginate]
 
-# Site settings
-title: Bring 스우 Board
-email: kaoraswoo@naver.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://kaoraswoo.github.io/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  kaoraswoo
-
-# Build settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
 markdown: kramdown
+disqus: kaoraswoo
+google_analytics: kaoraswoo
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: 스우의 게임서버와 클라이언트!
+
+description: kaoraswoo gameserver and client
+author:
+  name: kaoraswoo
+  email: kaoraswoo@naver.com
+  github: kaoraswoo
+  linkedin: kaoraswoo
+  bio: 스우의 게임서버와 클라이언트!
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
+
