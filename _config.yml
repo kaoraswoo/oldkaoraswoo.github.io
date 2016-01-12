@@ -1,0 +1,38 @@
+gems: [jekyll-paginate]
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: false
+
+# Setup
+title:               스우의 게임서버와 클라이언트!
+tagline:             '스우의 게임서버와 클라이언트!'
+description:         '스우의 게임서버와 클라이언트! <3 by kaoraswoo.'
+url:                 http://kaoraswoo.github.io
+baseurl:             /
+paginate:            7
+
+# About/contact
+author:
+  name:              kaoraswoo
+  url:               https://twitter.com/kaoraswoo
+  email:             kaoraswoo@naver.com
+
+# Custom vars
+version:             2.0
+
+# Social Media
+github:				http://github.com/kaoraswoo
+twitter:			http://twitter.com/kaoraswoo
+disqus:             swoosblog
+
+# Theme Author (Please don't edit this line cause of MIT LICENSE rules)
+theme:
+  creator:			Rizky Ariestiyansyah
+  codename:			Naringu
+  link:             https://github.com/ariestiyansyah/naringu
