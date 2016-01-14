@@ -16,7 +16,7 @@ relative_permalinks: false
 title:               스우의 게임서버와 클라이언트!
 tagline:             '스우의 게임서버와 클라이언트!'
 description:         '스우의 게임서버와 클라이언트! <3 by kaoraswoo.'
-url:                 http://kaoraswoo.github.io
+url:                 http://kaora.co.kr
 baseurl:             /
 paginate:            7
 
