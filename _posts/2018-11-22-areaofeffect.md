@@ -2,10 +2,12 @@
 layout: post
 title: 장판 고려
 categories:
-- 게임
+- game
 ---
 
-# 서버에서 고려한사항
+> 장판 skill
+
+#서버에서 고려한사항
 
 ## 장판
 ### 특정위치에 생성되는 독립적인 효과Entity
